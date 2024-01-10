@@ -1,1 +1,3 @@
-QSplitter的使用方法
+QSplitter如果是在QWindow上使用会导致窗体上不能有其他任何控件
+这个Demo展示可以让QSplitter在任意Qwidget上的使用方法，这样可以实现多个画面和控件共存在一个页面。
+QSplitter的一个好处是，整个窗体放大和缩小，QSplitter都可以进行自适应。
